@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    background-color: #fcde67;
+
+}
+
+.smallHeader{
+
+    background-color: #030e12;
+
+    
+}
+.smallHeader li{
+    width: 66%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    height: 8vh;
+    /* border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border: 2px solid #5bccf6;
+    border: 2px solid #5bccf6; */
+    list-style: none;
+}
+
+.smallHeader li a{
+    margin: 40px;
+    color: white;
+    
+    text-decoration: none;
+    
+}
+
+/* ************************Name Heading****************************** */
+.nameHeading {
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    text-align: center;
+    
+    
+}
+
+.nameHeading h1{
+    font-weight: bolder;
+
+}
+
+.searchBox{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* align-items: center; */
+    margin-top:15px ;
+    /* border: 2px solid black; */
+}
+.mainSearchBox{
+    /* border: 2px solid red; */
+    /* width: 350px; */
+    margin-top: 5px;
+    position: relative;
+}
+.mainSearchBox input{
+    width: 400px;
+    border-radius:10px ;
+    padding: 5px 5px;
+}
+
+.mainSearchBox img{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    
+
+}
+
+.mainSearchBox input::placeholder{
+    color: rgb(76, 71, 71);
+  }
+
+
+.cartItems img{
+    height: 40px;
+    margin: 0 10px;
+    
+}
+
+/* ****************Drop Down box ************* */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 12px ;
+    border: 2px solid black;
+    padding: 5px 10px;
+    color: whitesmoke;
+    background-color: black;
+    font-weight: bolder;
+    border-radius:10px ;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown-content p{
+    color: black;
+    
+}
+
+.dropdown-content a {
+      text-decoration: none;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* ***********Drop Down Ending  */
+
+.carosouls{
+    margin-top: 10px;
+}
+
+.carosouls img{
+    height: 70vh;
+    opacity: 0.9;
+}
+
+.carosouls .carousel-caption{
+    /* background-color: whitesmoke; */
+    /* width: 400px; */
+    border-radius: 90px;
+    opacity: 0.8;
+    font-size: 50px;
+    font-weight: 150px;
+}
+
+.carosouls .carousel-caption h1,p{
+    color: white;
+
+}
+
+.carosouls .button{
+    border: 2px solid black;
+    padding: 10px 40px ;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight:bolder ;
+    border-radius: 10px;
+}
